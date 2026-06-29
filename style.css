@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(0,0,0)
+
+}
+.calculator{
+   
+    padding: 20px;
+    border: 2px solid black;
+    width: 100 px;
+    height: 150;
+    border-radius: 15%;
+    background-color:rgb(162,187,207);
+    
+}
+#value{
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 10px;   /* buttons के बीच gap */
+    border-radius: 2px;
+    gap: 10px;
+}
+
+
+
+#value button{
+    height: 50px;
+    font-size: 18px;
+    border-radius: 50%;
+    border-color: rgb(20,47,68);
+}
+#input{
+    margin:20px ;
+    height: 30px;
+    width: 240px;
+    border-radius: 10px;
+}
+
+#btn{
+    width: 100px;
+    margin: 20px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+
+
+
+
+
+
+
